@@ -8,12 +8,15 @@ package autonoma.POKEMON.models;
  *
  * @author mateo
  */
-public class PokemonPlanta extends Pokemon{
-    
-    public PokemonPlanta(int numPOkedex, String nombre, double peso, int temporada) {
-        super(numPOkedex, nombre, peso, temporada);
-    }
+public interface PokemonPlanta {
     
     
+    public abstract void atacarParalizar();
     
+    
+    
+    
+    public abstract void atacarDrenaje();
+    
+    public abstract void atacarHojaAfilada();
 }
