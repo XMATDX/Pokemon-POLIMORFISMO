@@ -5,25 +5,68 @@
 package autonoma.POKEMON.models;
 
 /**
- *
- * @author mateo
+ * Clase padre de los pokemones
+ * 
+ * @author  Mateo Quintero
+ * @version 0.1
+ * @since   2025/03/31
+ * @see     autonoma.POKEMON.models
  */
 public class Pokemon {
 
-    private int numPOkedex;
+    //////////////////////////////////
+    /// Atributos
+    
+    /**
+     * Numero en la pokedex del pokemon.
+     */
+    private int numPokedex;
+    
+    /**
+    * Nombre del pokemon.
+    */
     private String nombre;
+    
+    /**
+    * Peso del pokemon.
+    */
     private double peso;
+    
+    /**
+    * Temporada del pokemon.
+    */
     private int temporada;
 
+    
+    
+    //////////////////////////////////
+    /// Constructor
+    
+    /**
+     * Constructor de la clase Amigo.
+     * 
+     * @param numPOkedex   Numero en la pokedex del pokemon.
+     * @param telefono Numero de telefono del amigo
+     * @param correo   Correo electronico del amigo
+     */
     public Pokemon(int numPOkedex, String nombre, double peso, int temporada) {
-        this.numPOkedex = numPOkedex;
+        this.numPokedex = numPOkedex;
         this.nombre = nombre;
         this.peso = peso;
         this.temporada = temporada;
     }
 
+    
+    //////////////////////////////////
+    /// Metodos de acceso
+    
+    /**
+     * Obtiene numero de pokedex del pokemon.
+     * 
+     * @return numPOkedex del pokemon
+     */
     public int getNumPOkedex() {
-        return numPOkedex;
+        return numPokedex;
     }
 
     public String getNombre() {
@@ -39,7 +82,7 @@ public class Pokemon {
     }
 
     public void setNumPOkedex(int numPOkedex) {
-        this.numPOkedex = numPOkedex;
+        this.numPokedex = numPOkedex;
     }
 
     public void setNombre(String nombre) {
