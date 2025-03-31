@@ -15,23 +15,23 @@ public class Squirtle extends Pokemon implements PokemonAgua{
     }
 
     @Override
-    public void atacarHidrobomba() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public String atacarHidrobomba() {
+        return ("Soy Squirtle y estoy atacando con Hidrobomba"); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     @Override
-    public void atacarPistolaAgua() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public String atacarPistolaAgua() {
+        return ("Soy Squirtle y estoy atacando con PistolaAgua"); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     @Override
-    public void atacarBurbuja() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public String atacarBurbuja() {
+        return ("Soy Squirtle y estoy atacando con Burbuja"); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     @Override
-    public void atacarHidropulso() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public String atacarHidropulso() {
+        return ("Soy Squirtle y estoy atacando con Hidropulso"); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
 }
