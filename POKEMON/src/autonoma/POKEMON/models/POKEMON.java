@@ -56,7 +56,9 @@ public class Pokemon {
         this.temporada = temporada;
     }
 
-    
+    public Pokemon() {
+
+    }
     //////////////////////////////////
     /// Metodos de acceso
     

@@ -14,9 +14,12 @@ public class Pikachu extends Pokemon implements PokemonElectrico{
         super(numPOkedex, nombre, peso, temporada);
     }
 
+    public Pikachu(){
+    }
+    
     @Override
     public void atacarImpactrueno() {
-        System.out.println("Soy Pikachu y estoy atacando " + "con Impactrueno");
+        System.out.println("Soy Pikachu y estoy atacando con Impactrueno");
     }
 
     @Override

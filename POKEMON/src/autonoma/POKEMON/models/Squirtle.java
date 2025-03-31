@@ -13,6 +13,9 @@ public class Squirtle extends Pokemon implements PokemonAgua{
     public Squirtle(int numPOkedex, String nombre, double peso, int temporada) {
         super(numPOkedex, nombre, peso, temporada);
     }
+    
+    public Squirtle(){
+    }
 
     @Override
     public void atacarHidrobomba() {
