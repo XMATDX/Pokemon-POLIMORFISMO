@@ -13,6 +13,9 @@ public class Charmander extends Pokemon implements PokemonFuego {
     public Charmander(int numPOkedex, String nombre, double peso, int temporada) {
         super(numPOkedex, nombre, peso, temporada);
     }
+    
+    public Charmander(){
+    }
 
     @Override
     public String atacarPunioFuego() {

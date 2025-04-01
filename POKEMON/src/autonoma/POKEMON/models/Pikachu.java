@@ -14,14 +14,17 @@ public class Pikachu extends Pokemon implements PokemonElectrico{
         super(numPOkedex, nombre, peso, temporada);
     }
 
+    public Pikachu(){
+    }
+    
     @Override
     public String atacarImpactrueno() {
         return ("Soy Pikachu y estoy atacando con Impactrueno");
     }
-
+    
     @Override
     public String atacarPunioTrueno() {
-        return ("Soy Pikachu y estoy atacando con Puniotrueno");
+      return ("Soy Pikachu y estoy atacando con Puniotrueno");
     }
 
     @Override
@@ -35,3 +38,4 @@ public class Pikachu extends Pokemon implements PokemonElectrico{
     }
     
 }
+
