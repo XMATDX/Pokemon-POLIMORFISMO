@@ -7,6 +7,8 @@ package autonoma.POKEMON.models;
 /**
  *
  * @author maribel ceballos <maribel.ceballosc@autonoma.edu.co>
+ * @version 0.1
+ * @since   2025/03/31
  */
 public class Pikachu extends Pokemon implements PokemonElectrico{
     
