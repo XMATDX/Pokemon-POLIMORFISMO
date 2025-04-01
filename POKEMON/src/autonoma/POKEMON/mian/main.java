@@ -14,8 +14,6 @@ import autonoma.POKEMON.models.Squirtle;
  */
 public class main {
     
-<<<<<<< HEAD
-=======
     public static void main(String[] args) {
     
         
@@ -30,6 +28,6 @@ public class main {
     System.out.println(s.atacarPistolaAgua());
     
     }
->>>>>>> 8afa42db3f190c8463b5e8f84a68cf44f124b867
+
     
 }
