@@ -10,8 +10,8 @@ package autonoma.POKEMON.models;
  */
 public interface PokemonElectrico {
     
-    public abstract void atacarImpactrueno();
-    public abstract void atacarPunioTrueno();
-    public abstract void atacarRayo();
-    public abstract void atacarRayoCarga();
+    public abstract String atacarImpactrueno();
+    public abstract String atacarPunioTrueno();
+    public abstract String atacarRayo();
+    public abstract String atacarRayoCarga();
 }

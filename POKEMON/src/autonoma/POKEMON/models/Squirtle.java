@@ -18,22 +18,22 @@ public class Squirtle extends Pokemon implements PokemonAgua{
     }
 
     @Override
-    public void atacarHidrobomba() {
+    public String atacarHidrobomba() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     @Override
-    public void atacarPistolaAgua() {
+    public String atacarPistolaAgua() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     @Override
-    public void atacarBurbuja() {
+    public String atacarBurbuja() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     @Override
-    public void atacarHidropulso() {
+    public String atacarHidropulso() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     

@@ -11,8 +11,8 @@ package autonoma.POKEMON.models;
 public interface PokemonAgua {
     
     
-    public abstract void atacarHidrobomba();
-    public abstract void atacarPistolaAgua() ;
-    public abstract void atacarBurbuja();
-    public abstract void atacarHidropulso();
+    public abstract String atacarHidrobomba();
+    public abstract String atacarPistolaAgua() ;
+    public abstract String atacarBurbuja();
+    public abstract String atacarHidropulso();
 }

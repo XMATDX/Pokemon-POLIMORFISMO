@@ -18,18 +18,18 @@ public class Charmander extends Pokemon implements PokemonFuego {
     }
 
     @Override
-    public void atacarPunioFuego() {
-        throw new UnsupportedOperationException("Not supported yet."); 
+    public String atacarPunioFuego() {
+        return ("Soy Chanrmander y estoy atacando con PunioFuego");
     }
 
     @Override
-    public void atacarAscuas() {
-        throw new UnsupportedOperationException("Not supported yet."); 
+    public String atacarAscuas() {
+        return ("Soy Chanrmander y estoy atacando con Ascuas");
     }
 
     @Override
-    public void atacarLanzallamas() {
-        throw new UnsupportedOperationException("Not supported yet.");
+    public String atacarLanzallamas() {
+        return ("Soy Chanrmander y estoy atacando con LanzaLlamas");
     }
     
 }

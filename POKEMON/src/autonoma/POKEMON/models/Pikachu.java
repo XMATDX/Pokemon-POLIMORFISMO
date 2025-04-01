@@ -18,23 +18,24 @@ public class Pikachu extends Pokemon implements PokemonElectrico{
     }
     
     @Override
-    public void atacarImpactrueno() {
-        System.out.println("Soy Pikachu y estoy atacando con Impactrueno");
+    public String atacarImpactrueno() {
+        return ("Soy Pikachu y estoy atacando con Impactrueno");
+    }
+    
+    @Override
+    public String atacarPunioTrueno() {
+      return ("Soy Pikachu y estoy atacando con Puniotrueno");
     }
 
     @Override
-    public void atacarPunioTrueno() {
-        throw new UnsupportedOperationException("Not supported yet.");
+    public String atacarRayo() {
+        return ("Soy Pikachu y estoy atacando con Rayo");
     }
 
     @Override
-    public void atacarRayo() {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
-
-    @Override
-    public void atacarRayoCarga() {
-        throw new UnsupportedOperationException("Not supported yet."); 
+    public String atacarRayoCarga() {
+        return ("Soy Pikachu y estoy atacando con RayoCarga"); 
     }
     
 }
+
