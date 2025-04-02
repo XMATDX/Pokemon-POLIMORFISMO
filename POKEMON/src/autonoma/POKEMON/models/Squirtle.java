@@ -8,7 +8,7 @@ package autonoma.POKEMON.models;
  * Representa un Squirtle, una subclase de Pokemon que implementa la interfaz 
  * PokemonAgua, lo que le permite ejecutar ataques de tipo agua específicos.
  *
- * @author Maribel Ceballos <maribel.ceballosc@gmail.com>
+ * @author Maribel Ceballos <maribel.ceballosc@autonoma.edu.com>
  * @version 1.0
  * @since 2025/04/01
  */

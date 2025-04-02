@@ -9,7 +9,7 @@ package autonoma.POKEMON.models;
  * Cualquier clase que implemente esta interfaz debe proporcionar la implementación
  * de los métodos de ataque de fuego.
  *
- * @author Maribel Ceballos <maribel.ceballosc@gmail.com>
+ * @author Maribel Ceballos <maribel.ceballosc@autonoma.edu.com>
  * @version 1.0
  * @since 2025/04/01
  */
