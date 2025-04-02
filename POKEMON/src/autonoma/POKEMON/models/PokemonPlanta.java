@@ -5,15 +5,41 @@
 package autonoma.POKEMON.models;
 
 /**
+ * Interfaz que define los ataques de tipo Planta que pueden ejecutar ciertos Pokémon.
+ * Cualquier clase que implemente esta interfaz debe proporcionar la implementación
+ * de los métodos de ataque de planta.
  *
- * @author mateo
+ * @author Maribel Ceballos <maribel.ceballosc@gmail.com>
+ * @version 1.0
+ * @since 2025/04/01
  */
 public interface PokemonPlanta {
-    
-    
-    public abstract String atacarParalizar();
-    public abstract String atacarDrenaje();
-    public abstract String atacarHojaAfilada();
-    public abstract String atacarLatigoCepa() ;
 
+    /**
+     * Ejecuta el ataque Paralizar.
+     *
+     * @return Mensaje indicando que el Pokémon está usando Paralizar.
+     */
+    public abstract String atacarParalizar();
+
+    /**
+     * Ejecuta el ataque Drenaje.
+     *
+     * @return Mensaje indicando que el Pokémon está usando Drenaje.
+     */
+    public abstract String atacarDrenaje();
+
+    /**
+     * Ejecuta el ataque Hoja Afilada.
+     *
+     * @return Mensaje indicando que el Pokémon está usando Hoja Afilada.
+     */
+    public abstract String atacarHojaAfilada();
+
+    /**
+     * Ejecuta el ataque Látigo Cepa.
+     *
+     * @return Mensaje indicando que el Pokémon está usando Látigo Cepa.
+     */
+    public abstract String atacarLatigoCepa();
 }
