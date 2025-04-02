@@ -8,7 +8,7 @@ package autonoma.POKEMON.models;
  * Representa un Charmander, una subclase de Pokemon que implementa la interfaz 
  * PokemonFuego, lo que le permite ejecutar ataques de tipo fuego específicos.
  *
- * @author Maribel Ceballos <maribel.ceballosc@gmail.com>
+ * @author Mateo Quintero <mateo.quinterom@autonoma.edu.co>
  * @version 1.0
  * @since 2025/04/01
  */
